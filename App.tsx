@@ -72,19 +72,19 @@ export default function App(): TSX.Element {
                     <TextInput
                         placeholder="Coloque seu nome aqui"
                         style={[styles.textBox, styles.text]}
-                        onChangeText={(t) => setName(t)}
+                        onChangeText={(t: string) => setName(t)}
                     />
 
                     <TextInput
                         placeholder="Coloque seu sobrenome aqui"
                         style={[styles.textBox, styles.text]}
-                        onChangeText={(t) => setSurname(t)}
+                        onChangeText={(t: string) => setSurname(t)}
                     />
 
                     <TextInput
                         placeholder="Coloque sua senha do banco aqui"
                         style={[styles.textBox, styles.text]}
-                        onChangeText={(t) => setPass(t)}
+                        onChangeText={(t: string) => setPass(t)}
                     />
                 </View>
 
