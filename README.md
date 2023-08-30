@@ -19,6 +19,6 @@ Para compilar e rodar o projeto, copie os seguintes comandos em seu terminal enq
 npm run web
 # Rodar em seu dispositivo Android ou emulador
 npm run android
-# Rodar para iOS (é preciso um dispositivo MacOS com Xcode instalado)
+# Rodar para iOS (é necessário ter um dispositivo MacOS com Xcode instalado)
 npm run ios
 ```
