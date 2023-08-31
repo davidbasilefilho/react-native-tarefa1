@@ -1,4 +1,4 @@
-# Introdução React Native
+# React Native Tarefa 1
 
 ### Setup
 Para fazer o setup do projeto, clone o projeto localmente e copie o seguinte comando:
