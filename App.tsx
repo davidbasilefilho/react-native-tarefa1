@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { StyleSheet, Text, View, TextInput, Button } from "react-native";
 
-export default function App(): TSX.Element {
+export default function App(): JSX.Element {
     const [name, setName] = useState<string>("");
     const [surname, setSurname] = useState<string>("");
     const [pass, setPass] = useState<string>("");
